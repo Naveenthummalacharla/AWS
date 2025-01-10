@@ -30,5 +30,5 @@ export const routes: Routes = [
         .then((m) => m.AppComponent) 
         .catch((err) => console.error('Error loading remote component', err)),
   },
-  
+ 
 ];

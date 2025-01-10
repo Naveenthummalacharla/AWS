@@ -5,6 +5,7 @@ module.exports = withModuleFederationPlugin({
   filename: 'remoteEntry.js',
   exposes: {
     './Component': './projects/inventory/src/app/app.component.ts',
+    './Routes': './src/app/app.routes.ts',
   },
   shared: {
     ...shareAll({
